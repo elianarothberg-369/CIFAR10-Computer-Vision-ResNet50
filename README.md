@@ -21,7 +21,9 @@ Ziel des Projekts war die Entwicklung eines Deep-Learning-Modells zur automatisc
 Zusätzlich sollte untersucht werden:
 
 •⁠  ⁠wie effektiv Transfer Learning mit ResNet50 funktioniert
+
 •⁠  ⁠welche Herausforderungen kleine Bilddatensätze mit sich bringen
+
 •⁠  ⁠wie Accuracy, Loss und Fehlklassifikationen interpretiert werden können
 
 ⸻
@@ -52,20 +54,31 @@ https://drive.google.com/file/d/13YBIqn4b_w2VCj1Ht5Nceiu8CHwSwiBX/view?usp=shari
 Der CIFAR-10-Datensatz enthält:
 
 •⁠  ⁠60.000 RGB-Bilder
+
 •⁠  ⁠10 verschiedene Klassen
+
 •⁠  ⁠Bildauflösung: 32 × 32 Pixel
 
 Klassen:
 
 •⁠  ⁠Airplane
+
 •⁠  ⁠Automobile
+
 •⁠  ⁠Bird
+
 •⁠  ⁠Cat
+
 •⁠  ⁠Deer
+
 •⁠  ⁠Dog
+
 •⁠  ⁠Frog
+
 •⁠  ⁠Horse
+
 •⁠  ⁠Ship
+
 •⁠  ⁠Truck
 
 ⸻
@@ -73,11 +86,17 @@ Klassen:
 ### Verwendete Technologien
 
 •⁠  ⁠Python
+
 •⁠  ⁠TensorFlow / Keras
+
 •⁠  ⁠NumPy
+
 •⁠  ⁠Matplotlib
+
 •⁠  ⁠Scikit-learn
+
 •⁠  ⁠Google Colab
+
 •⁠  ⁠GitHub
 
 ⸻
@@ -87,14 +106,23 @@ Klassen:
 Der Workflow des Projekts umfasste:
 
 •⁠  ⁠Laden und Vorverarbeitung der Bilddaten
+
 •⁠  ⁠Datenexploration und Visualisierung
+
 •⁠  ⁠Transfer Learning mit ResNet50
+
 •⁠  ⁠Data Augmentation
+
 •⁠  ⁠Modelltraining und Validierung
+
 •⁠  ⁠Vorhersageanalyse
+
 •⁠  ⁠Confusion Matrix
+
 •⁠  ⁠Classification Report
+
 •⁠  ⁠Accuracy- und Loss-Analyse
+
 •⁠  ⁠Ergebnisinterpretation
 
 ⸻
@@ -108,8 +136,11 @@ Die ursprüngliche Klassifikationsschicht wurde entfernt und durch eigene Dense-
 Zusätzlich wurden Data-Augmentation-Techniken eingesetzt, darunter:
 
 •⁠  ⁠horizontales Spiegeln
+
 •⁠  ⁠Rotation
+
 •⁠  ⁠Zoom
+
 •⁠  ⁠Bildskalierung
 
 Dadurch sollte die Generalisierungsfähigkeit des Modells verbessert werden.
@@ -121,6 +152,7 @@ Dadurch sollte die Generalisierungsfähigkeit des Modells verbessert werden.
 Das Modell erreichte:
 
 •⁠  ⁠Trainingsgenauigkeit: ca. 98–99 %
+
 •⁠  ⁠Validierungsgenauigkeit: ca. 60 %
 
 Die Ergebnisse zeigen typische Overfitting-Effekte:
@@ -130,7 +162,9 @@ Das Modell lernte die Trainingsdaten sehr gut, konnte dieses Wissen jedoch nur e
 Besonders gut erkannt wurden Klassen wie:
 
 •⁠  ⁠Ship
+
 •⁠  ⁠Truck
+
 •⁠  ⁠Airplane
 
 Schwierigkeiten traten insbesondere bei visuell ähnlichen Tierklassen auf.
@@ -142,8 +176,11 @@ Schwierigkeiten traten insbesondere bei visuell ähnlichen Tierklassen auf.
 Zur Bewertung der Modellleistung wurden folgende Methoden verwendet:
 
 •⁠  ⁠Accuracy- und Loss-Plots
+
 •⁠  ⁠Confusion Matrix
+
 •⁠  ⁠Classification Report
+
 •⁠  ⁠Beispielvorhersagen
 
 Die Visualisierungen halfen dabei, Fehlklassifikationen und Overfitting sichtbar zu machen.
@@ -167,8 +204,11 @@ Das Projekt demonstriert erfolgreich einen vollständigen Computer-Vision-Workfl
 Neben der technischen Umsetzung vermittelte das Projekt wertvolle praktische Erfahrungen in den Bereichen:
 
 •⁠  ⁠Computer Vision
+
 •⁠  ⁠Transfer Learning
+
 •⁠  ⁠Modelltraining
+
 •⁠  ⁠Evaluationsmetriken
 •⁠  ⁠Ergebnisinterpretation
 
