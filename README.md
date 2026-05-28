@@ -41,6 +41,13 @@ https://colab.research.google.com/drive/18wl2qTXyyZxRoiCTch9uLMzLy9M31k8H?usp=sh
 https://1drv.ms/p/c/90db5a923eed8ffe/IQCoBUkjohmwS6RuEMmjgZloAe1VLN9MYgOAvMAZHqMRo9o
 
 ⸻
+### Präsentation als PDF (PPT)
+
+🔗 Präsentation (PDF) öffnen
+
+https://drive.google.com/file/d/1UU7-CnRx1X3NC2z_diNpd914kD1nBhVI/view?usp=sharing
+
+⸻
 ### Executive Summary
 
 🔗 Executive Summary PDF öffnen
