@@ -1,6 +1,6 @@
-CIFAR10-Computer-Vision-ResNet50
+# CIFAR10-Computer-Vision-ResNet50
 
-Computer-Vision-Projekt zur Bildklassifikation mit CIFAR-10 unter Verwendung von Transfer Learning und ResNet50.
+# Computer-Vision-Projekt zur Bildklassifikation mit CIFAR-10 unter Verwendung von Transfer Learning und ResNet50.
 
 ⸻
 
@@ -14,7 +14,7 @@ Als Basisarchitektur wurde das vortrainierte ResNet50-Modell verwendet, um Trans
 
 ⸻
 
-# Projektziel
+### Projektziel
 
 Ziel des Projekts war die Entwicklung eines Deep-Learning-Modells zur automatischen Klassifikation von Bildern aus dem CIFAR-10-Datensatz in zehn verschiedene Klassen.
 
@@ -25,21 +25,21 @@ Zusätzlich sollte untersucht werden:
 •⁠  ⁠wie Accuracy, Loss und Fehlklassifikationen interpretiert werden können
 
 ⸻
-# Colab Notebook
+### Colab Notebook
 
 🔗 Colab Notebook öffnen:
 
 https://colab.research.google.com/drive/18wl2qTXyyZxRoiCTch9uLMzLy9M31k8H?usp=sharing
 
 ⸻
-# Präsentation (PPT)
+### Präsentation (PPT)
 
 🔗 Präsentation öffnen
 
 https://1drv.ms/p/c/90db5a923eed8ffe/IQCoBUkjohmwS6RuEMmjgZloAe1VLN9MYgOAvMAZHqMRo9o
 
 ⸻
-# Executive Summary
+### Executive Summary
 
 🔗 Executive Summary PDF öffnen
 
@@ -47,7 +47,7 @@ https://drive.google.com/file/d/13YBIqn4b_w2VCj1Ht5Nceiu8CHwSwiBX/view?usp=shari
 
 ⸻
 
-# Verwendeter Datensatz
+### Verwendeter Datensatz
 
 Der CIFAR-10-Datensatz enthält:
 
@@ -70,7 +70,7 @@ Klassen:
 
 ⸻
 
-# Verwendete Technologien
+### Verwendete Technologien
 
 •⁠  ⁠Python
 •⁠  ⁠TensorFlow / Keras
@@ -82,7 +82,7 @@ Klassen:
 
 ⸻
 
-# Projektworkflow
+### Projektworkflow
 
 Der Workflow des Projekts umfasste:
 
@@ -99,7 +99,7 @@ Der Workflow des Projekts umfasste:
 
 ⸻
 
-# Modellentwicklung
+### Modellentwicklung
 
 Für die Bildklassifikation wurde ResNet50 als vortrainiertes Convolutional Neural Network verwendet.
 
@@ -116,7 +116,7 @@ Dadurch sollte die Generalisierungsfähigkeit des Modells verbessert werden.
 
 ⸻
 
-# Ergebnisse
+### Ergebnisse
 
 Das Modell erreichte:
 
@@ -137,7 +137,7 @@ Schwierigkeiten traten insbesondere bei visuell ähnlichen Tierklassen auf.
 
 ⸻
 
-# Evaluation
+### Evaluation
 
 Zur Bewertung der Modellleistung wurden folgende Methoden verwendet:
 
@@ -150,7 +150,7 @@ Die Visualisierungen halfen dabei, Fehlklassifikationen und Overfitting sichtbar
 
 ⸻
 
-# Herausforderungen
+### Herausforderungen
 
 Eine der größten Herausforderungen war die geringe Bildauflösung des CIFAR-10-Datensatzes.
 
@@ -160,7 +160,7 @@ Zusätzlich stellte Overfitting eine zentrale Herausforderung während des Train
 
 ⸻
 
-# Fazit
+### Fazit
 
 Das Projekt demonstriert erfolgreich einen vollständigen Computer-Vision-Workflow mit TensorFlow, Keras und ResNet50.
 
