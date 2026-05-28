@@ -52,8 +52,7 @@ https://drive.google.com/file/d/1UU7-CnRx1X3NC2z_diNpd914kD1nBhVI/view?usp=shari
 
 🔗 Executive Summary PDF öffnen
 
-https://drive.google.com/file/d/13YBIqn4b_w2VCj1Ht5Nceiu8CHwSwiBX/view?usp=sharing
-
+https://drive.google.com/file/d/1MS71lzDEEiimnL7Jkgbj9sT6MTLWybtR/view?usp=sharing
 ⸻
 
 ### Verwendeter Datensatz
